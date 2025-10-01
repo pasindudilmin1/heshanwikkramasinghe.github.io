@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ravindu Heshan - CV</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7fa;
+      color: #333;
+    }
+
+    .container {
+      width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      box-shadow: 0 0 15px rgba(0,0,0,0.15);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, #004aad, #0078ff);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #fff;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 2.4em;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin: 5px 0 15px;
+      font-size: 1.1em;
+      opacity: 0.9;
+    }
+
+    .contact {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .contact div {
+      background: rgba(255,255,255,0.15);
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 0.9em;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .download-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 22px;
+      background: #ff9800;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 1em;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+      transition: 0.3s;
+    }
+
+    .download-btn:hover {
+      background: #e68900;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+    }
+
+    .section {
+      padding: 25px 40px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .section:last-child {
+      border-bottom: none;
+    }
+
+    .section h2 {
+      color: #004aad;
+      margin-bottom: 15px;
+      font-size: 1.5em;
+      border-left: 5px solid #ff9800;
+      padding-left: 10px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+
+    .skills {
+      display: flex;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills li::before {
+      content: "✔️ ";
+      color: #004aad;
+      margin-right: 5px;
+    }
+
+    .referees {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .referees div {
+      flex: 1;
+      padding: 10px;
+      background: #f9fafc;
+      border-left: 4px solid #004aad;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <!-- Profile Picture -->
+      <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
+
+      <h1>Ravindu Heshan</h1>
+      <p>BSc (Hons) in Biotechnology Undergraduate - SLIIT</p>
+      
+      <div class="contact">
+        <div>📧 ravindu.wickramasinghe0@gmail.com</div>
+        <div>📞 +94 76 600 7073</div>
+        <div>🔗 <a href="https://www.linkedin.com/in/ravindu-heshan" target="_blank" style="color:#fff;">LinkedIn</a></div>
+      </div>
+
+      <!-- Download CV Button -->
+      <a href="cv.pdf" download class="download-btn">⬇️ Download CV</a>
+    </header>
+
+    <div class="section">
+      <h2>Profile</h2>
+      <p>
+        I am an enthusiastic Biotechnology undergraduate at the Sri Lanka Institute of Information Technology, 
+        driven by a passion for applying scientific knowledge to tackle critical challenges in health, 
+        environmental sustainability, and development. I have a strong foundation in genetic engineering, 
+        microbiology, and molecular biology, complemented by hands-on experience in laboratory research 
+        and fieldwork. My aspiration is to leverage my skills to contribute to innovative research 
+        and practical solutions that enhance human well-being and protect the environment.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Academic Qualifications</h2>
+      <ul>
+        <li><b>BSc (Hons) in Biotechnology</b> – Sri Lanka Institute of Information Technology (2025 – Present)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Work Experience</h2>
+      <ul>
+        <li><b>Research Assistant</b> – National Institute of Fundamental Studies, Kandy (Jul 2023 – Dec 2023)</li>
+        <li><b>Part-Time Laboratory Demonstrator</b> – Faculty of Applied Sciences, University of Sri Jayewardenepura (2022 – 2023)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Volunteer Projects</h2>
+      <ul>
+        <li><b>Science Outreach Volunteer:</b> Organized biotechnology workshops for school students.</li>
+        <li><b>Environmental Clean-Up & Waste Management Volunteer:</b> Partnered with NGOs for river clean-up and compost awareness.</li>
+        <li><b>Genetic Disorder Awareness Campaigns:</b> Contributed to thalassemia prevention programs with health organizations.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Extracurricular Activities</h2>
+      <ul>
+        <li>Member – University Debate Team (represented faculty in competitions)</li>
+        <li>Event Organizer – Handawa, Scifest</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Expertise</h3>
+          <ul>
+            <li>Microbiology</li>
+            <li>Biotechnology Applications</li>
+            <li>Laboratory Research & Field Studies</li>
+            <li>Biostatistics & Data Analysis</li>
+            <li>Genetic Engineering</li>
+            <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Project Management</li>
+            <li>Leadership Potential</li>
+            <li>Teamwork</li>
+            <li>Organization</li>
+            <li>Responsibility & Commitment</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Languages</h3>
+          <ul>
+            <li>English</li>
+            <li>Sinhala</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Referees</h2>
+      <div class="referees">
+        <div>
+          <b>Prof. Charitha Jayaruk</b><br>
+          Professor and Researcher in Analytical Chemistry<br>
+          📞 +94 701 900 705<br>
+          ✉️ jayaruk.c@sliit.lk
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
